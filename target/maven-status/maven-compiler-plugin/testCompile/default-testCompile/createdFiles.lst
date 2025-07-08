@@ -1,0 +1,14 @@
+utilities\ExcelUtility.class
+testBase\BaseClass.class
+pageObjects\homePage.class
+pageObjects\basePage.class
+pageObjects\registrationPage.class
+pageObjects\LoginPage.class
+pageObjects\myAccountPage.class
+testCases\TC_003_ForgotPwdTest.class
+utilities\ExtentReportManager.class
+utilities\DataProviders.class
+pageObjects\forgotPwdPage.class
+testCases\TC_004_LoginDDT.class
+testCases\TC_001_RegistrationOfUser.class
+testCases\TC_002_LoginTest.class

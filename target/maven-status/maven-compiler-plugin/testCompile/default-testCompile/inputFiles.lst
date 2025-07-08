@@ -1,0 +1,14 @@
+C:\Automation\SeleniumWebDriver\ECommerceApp\src\test\java\pageObjects\basePage.java
+C:\Automation\SeleniumWebDriver\ECommerceApp\src\test\java\pageObjects\forgotPwdPage.java
+C:\Automation\SeleniumWebDriver\ECommerceApp\src\test\java\pageObjects\homePage.java
+C:\Automation\SeleniumWebDriver\ECommerceApp\src\test\java\pageObjects\LoginPage.java
+C:\Automation\SeleniumWebDriver\ECommerceApp\src\test\java\pageObjects\myAccountPage.java
+C:\Automation\SeleniumWebDriver\ECommerceApp\src\test\java\pageObjects\registrationPage.java
+C:\Automation\SeleniumWebDriver\ECommerceApp\src\test\java\testBase\BaseClass.java
+C:\Automation\SeleniumWebDriver\ECommerceApp\src\test\java\testCases\TC_001_RegistrationOfUser.java
+C:\Automation\SeleniumWebDriver\ECommerceApp\src\test\java\testCases\TC_002_LoginTest.java
+C:\Automation\SeleniumWebDriver\ECommerceApp\src\test\java\testCases\TC_003_ForgotPwdTest.java
+C:\Automation\SeleniumWebDriver\ECommerceApp\src\test\java\testCases\TC_004_LoginDDT.java
+C:\Automation\SeleniumWebDriver\ECommerceApp\src\test\java\utilities\DataProviders.java
+C:\Automation\SeleniumWebDriver\ECommerceApp\src\test\java\utilities\ExcelUtility.java
+C:\Automation\SeleniumWebDriver\ECommerceApp\src\test\java\utilities\ExtentReportManager.java
