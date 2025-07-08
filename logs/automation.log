@@ -1906,3 +1906,27 @@
 17:40:34.856 [main] INFO  testCases.TC_003_ForgotPwdTest - clicked on forgotPassword
 17:40:36.559 [main] INFO  testCases.TC_003_ForgotPwdTest - provided emailid and clicked on continue
 17:40:36.639 [main] INFO  testCases.TC_003_ForgotPwdTest - **execution of TC_003_forgotPassword completed **
+00:37:39.709 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\SeleniumWebDriver\ECommerceApp\Main.xml"
+00:37:40.285 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\SeleniumWebDriver\ECommerceApp\Main.xml
+
+00:37:47.344 [main] INFO  testCases.TC_001_RegistrationOfUser - **Starting the execution of TC_001_RegistrationOfUser**
+00:37:47.642 [main] INFO  testCases.TC_001_RegistrationOfUser - Clicked on My account
+00:37:48.236 [main] INFO  testCases.TC_001_RegistrationOfUser - Clicked on register
+00:37:51.474 [main] INFO  testCases.TC_001_RegistrationOfUser - Entered the all required details
+00:37:52.529 [main] INFO  testCases.TC_001_RegistrationOfUser - clicked on continue
+00:37:52.530 [main] INFO  testCases.TC_001_RegistrationOfUser - validating expected message
+00:37:52.680 [main] INFO  testCases.TC_001_RegistrationOfUser - message is as expected
+00:37:52.680 [main] INFO  testCases.TC_001_RegistrationOfUser - **execution of TC_001_RegistrationOfUser is completed**
+00:37:56.709 [main] INFO  testCases.TC_002_LoginTest - ** Starting TC_002_LoginTest **
+00:37:56.899 [main] INFO  testCases.TC_002_LoginTest - clicked on my account
+00:37:57.207 [main] INFO  testCases.TC_002_LoginTest - clicked on login
+00:37:57.654 [main] INFO  testCases.TC_002_LoginTest - entered the login details and clicked on login
+00:37:58.357 [main] INFO  testCases.TC_002_LoginTest - Myaccount heading is displayed
+00:37:58.358 [main] INFO  testCases.TC_002_LoginTest - **Execution of TC_002_Logintest completed**
+00:38:01.160 [main] INFO  testCases.TC_003_ForgotPwdTest - ** Starting TC_003_forgotPassword **
+00:38:01.315 [main] INFO  testCases.TC_003_ForgotPwdTest - clicked on my account
+00:38:01.622 [main] INFO  testCases.TC_003_ForgotPwdTest - clicked on login
+00:38:02.007 [main] INFO  testCases.TC_003_ForgotPwdTest - clicked on forgotPassword
+00:38:02.437 [main] INFO  testCases.TC_003_ForgotPwdTest - provided emailid and clicked on continue
+00:38:04.443 [main] INFO  testCases.TC_003_ForgotPwdTest - **execution of TC_003_forgotPassword completed **

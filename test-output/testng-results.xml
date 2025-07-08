@@ -1,35 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-08T15:38:46 IST" name="Suite" finished-at="2025-07-08T15:39:36 IST" duration-ms="49933">
+  <suite started-at="2025-07-09T00:37:40 IST" name="Suite" finished-at="2025-07-09T00:38:04 IST" duration-ms="24495">
     <groups>
       <group name="Master">
-        <method signature="TC_001_RegistrationOfUser.registration()[pri:0, instance:testCases.TC_001_RegistrationOfUser@4c51cf28]" name="registration" class="testCases.TC_001_RegistrationOfUser"/>
-        <method signature="TC_002_LoginTest.login()[pri:0, instance:testCases.TC_002_LoginTest@3e7dd664]" name="login" class="testCases.TC_002_LoginTest"/>
-        <method signature="TC_001_RegistrationOfUser.registration()[pri:0, instance:testCases.TC_001_RegistrationOfUser@487db668]" name="registration" class="testCases.TC_001_RegistrationOfUser"/>
-        <method signature="TC_002_LoginTest.login()[pri:0, instance:testCases.TC_002_LoginTest@46944ca9]" name="login" class="testCases.TC_002_LoginTest"/>
+        <method signature="TC_001_RegistrationOfUser.registration()[pri:0, instance:testCases.TC_001_RegistrationOfUser@525575]" name="registration" class="testCases.TC_001_RegistrationOfUser"/>
+        <method signature="TC_002_LoginTest.login()[pri:0, instance:testCases.TC_002_LoginTest@db57326]" name="login" class="testCases.TC_002_LoginTest"/>
+        <method signature="TC_003_ForgotPwdTest.forgotPwd()[pri:0, instance:testCases.TC_003_ForgotPwdTest@34a875b3]" name="forgotPwd" class="testCases.TC_003_ForgotPwdTest"/>
       </group> <!-- Master -->
       <group name="Regression">
-        <method signature="TC_001_RegistrationOfUser.registration()[pri:0, instance:testCases.TC_001_RegistrationOfUser@4c51cf28]" name="registration" class="testCases.TC_001_RegistrationOfUser"/>
-        <method signature="TC_002_LoginTest.login()[pri:0, instance:testCases.TC_002_LoginTest@3e7dd664]" name="login" class="testCases.TC_002_LoginTest"/>
-        <method signature="TC_001_RegistrationOfUser.registration()[pri:0, instance:testCases.TC_001_RegistrationOfUser@487db668]" name="registration" class="testCases.TC_001_RegistrationOfUser"/>
-        <method signature="TC_002_LoginTest.login()[pri:0, instance:testCases.TC_002_LoginTest@46944ca9]" name="login" class="testCases.TC_002_LoginTest"/>
+        <method signature="TC_001_RegistrationOfUser.registration()[pri:0, instance:testCases.TC_001_RegistrationOfUser@525575]" name="registration" class="testCases.TC_001_RegistrationOfUser"/>
+        <method signature="TC_002_LoginTest.login()[pri:0, instance:testCases.TC_002_LoginTest@db57326]" name="login" class="testCases.TC_002_LoginTest"/>
       </group> <!-- Regression -->
       <group name="sanity">
-        <method signature="TC_001_RegistrationOfUser.registration()[pri:0, instance:testCases.TC_001_RegistrationOfUser@4c51cf28]" name="registration" class="testCases.TC_001_RegistrationOfUser"/>
-        <method signature="TC_002_LoginTest.login()[pri:0, instance:testCases.TC_002_LoginTest@3e7dd664]" name="login" class="testCases.TC_002_LoginTest"/>
-        <method signature="TC_001_RegistrationOfUser.registration()[pri:0, instance:testCases.TC_001_RegistrationOfUser@487db668]" name="registration" class="testCases.TC_001_RegistrationOfUser"/>
-        <method signature="TC_002_LoginTest.login()[pri:0, instance:testCases.TC_002_LoginTest@46944ca9]" name="login" class="testCases.TC_002_LoginTest"/>
+        <method signature="TC_001_RegistrationOfUser.registration()[pri:0, instance:testCases.TC_001_RegistrationOfUser@525575]" name="registration" class="testCases.TC_001_RegistrationOfUser"/>
+        <method signature="TC_002_LoginTest.login()[pri:0, instance:testCases.TC_002_LoginTest@db57326]" name="login" class="testCases.TC_002_LoginTest"/>
+        <method signature="TC_003_ForgotPwdTest.forgotPwd()[pri:0, instance:testCases.TC_003_ForgotPwdTest@34a875b3]" name="forgotPwd" class="testCases.TC_003_ForgotPwdTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-07-08T15:38:46 IST" name="Linux-chrome" finished-at="2025-07-08T15:39:04 IST" duration-ms="18070">
+    <test started-at="2025-07-09T00:37:40 IST" name="Test" finished-at="2025-07-09T00:38:04 IST" duration-ms="24495">
       <class name="testCases.TC_002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@3e7dd664]" started-at="2025-07-08T15:38:59 IST" name="setup" finished-at="2025-07-08T15:39:01 IST" duration-ms="2386" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@db57326]" started-at="2025-07-09T00:37:53 IST" name="setup" finished-at="2025-07-09T00:37:56 IST" duration-ms="3309" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Linux]]>
+                <![CDATA[windows]]>
               </value>
             </param>
             <param index="1">
@@ -41,21 +37,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:testCases.TC_002_LoginTest@3e7dd664]" started-at="2025-07-08T15:39:01 IST" name="login" finished-at="2025-07-08T15:39:04 IST" duration-ms="2773" status="PASS">
+        <test-method signature="login()[pri:0, instance:testCases.TC_002_LoginTest@db57326]" started-at="2025-07-09T00:37:56 IST" name="login" finished-at="2025-07-09T00:37:58 IST" duration-ms="1651" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_LoginTest@3e7dd664]" started-at="2025-07-08T15:39:04 IST" name="tearDown" finished-at="2025-07-08T15:39:04 IST" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_LoginTest@db57326]" started-at="2025-07-09T00:37:58 IST" name="tearDown" finished-at="2025-07-09T00:37:58 IST" duration-ms="291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_002_LoginTest -->
-      <class name="testCases.TC_001_RegistrationOfUser">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_RegistrationOfUser@4c51cf28]" started-at="2025-07-08T15:38:47 IST" name="setup" finished-at="2025-07-08T15:38:54 IST" duration-ms="7439" status="PASS">
+      <class name="testCases.TC_003_ForgotPwdTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_ForgotPwdTest@34a875b3]" started-at="2025-07-09T00:37:58 IST" name="setup" finished-at="2025-07-09T00:38:01 IST" duration-ms="2502" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Linux]]>
+                <![CDATA[windows]]>
               </value>
             </param>
             <param index="1">
@@ -67,69 +63,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registration()[pri:0, instance:testCases.TC_001_RegistrationOfUser@4c51cf28]" started-at="2025-07-08T15:38:54 IST" name="registration" finished-at="2025-07-08T15:38:59 IST" duration-ms="4444" status="PASS">
+        <test-method signature="forgotPwd()[pri:0, instance:testCases.TC_003_ForgotPwdTest@34a875b3]" started-at="2025-07-09T00:38:01 IST" name="forgotPwd" finished-at="2025-07-09T00:38:04 IST" duration-ms="3286" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_RegistrationOfUser@4c51cf28]" started-at="2025-07-08T15:38:59 IST" name="tearDown" finished-at="2025-07-08T15:38:59 IST" duration-ms="186" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_001_RegistrationOfUser -->
-    </test> <!-- Linux-chrome -->
-    <test started-at="2025-07-08T15:39:09 IST" name="Linux-firefox" finished-at="2025-07-08T15:39:36 IST" duration-ms="26992">
-      <class name="testCases.TC_002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@46944ca9]" started-at="2025-07-08T15:39:25 IST" name="setup" finished-at="2025-07-08T15:39:32 IST" duration-ms="7176" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Linux]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:testCases.TC_002_LoginTest@46944ca9]" started-at="2025-07-08T15:39:32 IST" name="login" finished-at="2025-07-08T15:39:34 IST" duration-ms="2355" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_LoginTest@46944ca9]" started-at="2025-07-08T15:39:34 IST" name="tearDown" finished-at="2025-07-08T15:39:36 IST" duration-ms="1727" status="PASS">
+        </test-method> <!-- forgotPwd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_ForgotPwdTest@34a875b3]" started-at="2025-07-09T00:38:04 IST" name="tearDown" finished-at="2025-07-09T00:38:04 IST" duration-ms="340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_002_LoginTest -->
+      </class> <!-- testCases.TC_003_ForgotPwdTest -->
       <class name="testCases.TC_001_RegistrationOfUser">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_RegistrationOfUser@487db668]" started-at="2025-07-08T15:39:09 IST" name="setup" finished-at="2025-07-08T15:39:19 IST" duration-ms="10279" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_RegistrationOfUser@525575]" started-at="2025-07-09T00:37:40 IST" name="setup" finished-at="2025-07-09T00:37:47 IST" duration-ms="6517" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Linux]]>
+                <![CDATA[windows]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registration()[pri:0, instance:testCases.TC_001_RegistrationOfUser@487db668]" started-at="2025-07-08T15:39:19 IST" name="registration" finished-at="2025-07-08T15:39:23 IST" duration-ms="3471" status="PASS">
+        <test-method signature="registration()[pri:0, instance:testCases.TC_001_RegistrationOfUser@525575]" started-at="2025-07-09T00:37:47 IST" name="registration" finished-at="2025-07-09T00:37:52 IST" duration-ms="5360" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_RegistrationOfUser@487db668]" started-at="2025-07-08T15:39:23 IST" name="tearDown" finished-at="2025-07-08T15:39:25 IST" duration-ms="1952" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_RegistrationOfUser@525575]" started-at="2025-07-09T00:37:52 IST" name="tearDown" finished-at="2025-07-09T00:37:53 IST" duration-ms="662" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_001_RegistrationOfUser -->
-    </test> <!-- Linux-firefox -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
